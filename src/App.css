@@ -38,3 +38,8 @@
     justify-self: end;
     font-size: xx-large;
 }
+@media (max-width:350px) {
+  .body{
+    background-color: black;
+  }
+}
