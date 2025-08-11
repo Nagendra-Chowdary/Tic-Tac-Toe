@@ -10,11 +10,11 @@ export default function Board({squares,onPlay,isXnext}){
     if(squares[i] || winner(squares)){return}
    let newSquares=squares.slice();
    if(isXnext){
-     newSquares[i]="x";
+     newSquares[i]="X";
      
     }
     else{
-     newSquares[i]="o";
+     newSquares[i]="O";
     
    }
    onPlay(newSquares);
@@ -22,7 +22,7 @@ export default function Board({squares,onPlay,isXnext}){
   const win=winner(squares);
   let status;
   if(win){
-    status="Player "+win+" won.";
+    status="Player "+win+" wins.";
   }
   else{
     status="Next player : "+(isXnext?"X":"O");

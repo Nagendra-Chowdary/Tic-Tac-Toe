@@ -39,7 +39,26 @@
     font-size: xx-large;
 }
 @media (max-width:350px) {
-  .body{
-    background-color: black;
+  .game{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: start;
+  }
+  .game-info{
+    height: 350px; ;
+    margin-left: 5px;
+    font-size: large;
+  }
+  .game-info ol{
+    list-style-type: none;
+    padding: 0;
+  }
+  .game-info li{
+    font-size: large;
+  }
+  .game-board{
+    height: 350px; 
+
   }
 }
