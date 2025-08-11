@@ -38,7 +38,7 @@
     justify-self: end;
     font-size: xx-large;
 }
-@media (max-width:350px) {
+@media (max-width:600px) {
   .game{
     display: flex;
     flex-direction: column;
