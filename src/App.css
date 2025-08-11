@@ -1,0 +1,40 @@
+
+.square{
+  font-size: xx-large;
+  font-style: oblique;
+  font-weight: bold;
+  height: 92px;
+  width: 92px;
+  vertical-align: middle;
+
+}
+.game-info {
+  height: 500px;
+  align-self: center;
+  justify-self: start;
+  margin-left: 35px;
+} 
+.game-info li{
+
+  font-size:x-large;
+}
+.game-info button{
+  border: none;
+  margin-bottom: 5px;
+  font-size:larger;
+}
+
+.game{
+  background-color: rgb(167, 155, 91);
+  height: 100vh;
+  display: grid;
+  grid-template-columns:1fr 1fr;
+  grid-template-rows:1fr;
+  font-size:larger;
+}
+.game-board{
+  height: 500px;
+    align-self: center;
+    justify-self: end;
+    font-size: xx-large;
+}
